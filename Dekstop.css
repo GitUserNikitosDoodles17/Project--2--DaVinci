@@ -1,0 +1,391 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+/* Setting font-szie for <html> */
+html{
+    font-size: 10px;
+}
+
+
+/* Navigation bar/#nav */
+#nav{
+    display: flex;
+    top: 0px;
+    left: 0px;
+    position: sticky;
+    height: 100px;
+}
+/* Navigation bar::before/#nav::before */
+#nav::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0px;
+    left: 0px;
+}
+/* Navigation bar: logo/#logo-left */
+#logo-left{
+    margin: 1px 1px 1px 1px;
+}
+/* Navigation bar logo-left img/#logo-left img */
+#logo-left img{
+    width: 101px;
+    height: 101px;
+}
+/* Navigation bar: ul/#nav ul */
+#nav ul{
+    display: flex;
+}
+/* Navigation bar: ul li/#nav ul li */
+#nav ul li{
+    margin: auto 75px auto 1px;
+    list-style: none;
+}
+/* Navigation bar: ul li a/#nav ul li a */
+#nav ul li a{
+    text-decoration: none;
+    padding: 0px 7px 0px 7px;
+    /* border: 1px solid white; */
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 2.6rem;
+    /* border-radius: 45px; */
+    color: white;
+}
+/* Navigation bar ul li a:hover/#nav ul li a:hover */
+#nav ul li a:hover{
+    border-radius: 45px;
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+}
+/* Navigation bar item-1/#item-1, giving some margin from left to item-1 */
+#item-1{
+    padding-left: 25px;
+}
+
+/* Styling of navigation bar ends here */
+
+
+/* Home section/#home */
+/* Home section/#home */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+/* Home section: home::before/#home::before */
+#home::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 642px;
+    background: url(Bg-4.jpg) no-repeat center center/cover;
+    z-index: -1;
+    /* opacity: 0.89; */
+    opacity: 1.0;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/* Home section: h1/#home h1 */
+#home h1{
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 9.5rem;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    letter-spacing: 7px;
+}
+/* Home section: p/#home p */
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* Home section: span element/#button */
+#button{
+    margin-top: 35px;
+}
+/* Home section: order now button/#order-now */
+#order-now{
+    font-size: 3rem;
+    border: none;
+    background-color: brown;
+    border: 3px solid white;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px 18px 9px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Styling of home section ends here */
+
+/* Today's special section */
+/* Today's special section::before/#todyas-special-container::before */
+/* #todays-special-container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../Images/Bg-5.jpg)no-repeat center center/cover;
+    margin-top: -8px;
+    z-index: -1;
+    opacity: 1.0;
+} */
+
+/* Today's special section: h1/#tsc-1*/
+#tsc-h1{
+    font-size: 8rem;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: black;
+}
+/* Today's special section: todays-special/#todays-special */
+#todays-special{
+    display: flex;
+    margin: 34px;
+}
+/* Today's special section: dish/.dish */
+.dish{
+    border: 3px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 55px;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding: 35px 40px 35px 40px;
+}
+/* Today's special section: dish img/.dish img */
+.dish img{
+    height: 200px;
+    margin: auto;
+    border-radius: 7px;
+    
+} 
+/* Today's special section: dish h1/.dish h1  */
+.dish h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 6.7rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+/* Today's special section: dish-1/#dish-1 */
+#dish-1{
+    margin-left: 0px;
+}
+/* Today's special section: dish p/.dish p */
+.dish p{
+    color: black;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Styling of today's special section ends here */
+
+/* Safety and Hygiene Section */
+#sahc-h1{
+    font-size: 8rem;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: black;
+    margin-top: 35px;
+}
+/* Safety and Hygiene Section: safety-and-hygiene/#safety-and-hygiene */
+#safety-and-hygiene{
+    display: flex;
+    margin: 34px;
+}
+/* Safety and Hygiene Section: sah/.sah */
+.sah{
+    border: 3px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 55px;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    padding: 35px 40px 35px 40px;
+}
+/* Safety and Hygiene Section: sah img/.sah img */
+.sah img{
+    height: 200px;
+    margin: auto;
+    border-radius: 7px;
+    
+} 
+/* Safety and Hygiene Section: sah h1/.sah h1  */
+.sah h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 5.7rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    
+}
+/* Safety and Hygiene Section: sah-policy-1/#sah-policy-1 */
+#sah-policy-1{
+    margin-left: 0px;
+}
+/* Safety and Hygiene Section: sah p/.sah p */
+.sah p{
+    color: black;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* Safety and Hygiene Section: sah-policy-2 img/#sah-policy-2 img */
+#sah-policy-2 img{
+    width: 355px;
+}
+/* Safety and Hygiene Section: sah-policy-3 img/#sah-policy-3 img */
+#sah-policy-3 img{
+    width: 355px;
+}
+/* Styling hr element */
+.horizontal-break{
+    margin: 105px 30px 0px 30px;
+    color: black;
+    height: 3px;
+    background-color: black;
+}
+
+
+/* Styling of safety and hygiene section ends here */
+
+/* Contact us section/ */
+/* Contact us section::before/#contact-us::before */
+#contact-us-container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1110px;
+    background: url(Bg-8.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 1.0;
+    margin-top: 35px;
+}
+/* Contact us section: h1/#cus-h1 */
+#cusc-h1{
+    font-size: 8rem;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: black;
+    /* margin-top: 35px; */
+    padding-top: 45px;
+}
+/* Contact us section: cus/#cus */
+#cus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Contact us section: form-group label/.form-group label */
+.form-group label{
+    font-size: 3.7rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+/* Contact us section: form-group-1/#form-group-1 */
+#form-group-1{
+    margin-top: 30px;
+}
+/* Contact us section: form-group/.form-group */
+.form-group{
+    text-align: center;
+}
+/* Contact us: form-group input, textarea/.form-group input, textarea */
+.form-group input, textarea{
+    width: 700px;
+    height: 40px;
+    border-radius: 22px;
+    border: 3px solid black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.33rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    padding: 8px 8px 8px 8px;
+}
+/* Contact us section: form-group textarea/.form-group textarea */
+.form-group textarea{
+    height: 100%;
+}
+/* Contact us: last heading having emoji/#emoji */
+/* #emoji{
+    font-size: 20rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    transform: rotate(88deg);
+    color: burlywood;
+} */
+
+/* Contact us: submit-form-btn/#submit-form-btn */
+/* #submit-form-btn{
+     
+} */
+/* Contact us: submit-form-button/#submit-form-button */
+#submit-form-button{
+    font-size: 3rem;
+    border: none;
+    background-color: brown;
+    border: 3px solid white;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 9px 18px 9px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    
+}
+
+/* Styling of contact us section ends here */
+
+/* Footer */
+#footer{
+    background-color: black;
+    height: 40px;
+}
+/* Footer: h1/#footer h1 */
+#footer h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
