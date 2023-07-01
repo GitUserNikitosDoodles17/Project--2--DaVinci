@@ -9,7 +9,9 @@
 html{
     font-size: 10px;
 }
-
+body {
+    display: none;
+}
 
 /* Navigation bar/#nav */
 #nav{
@@ -367,7 +369,7 @@ html{
     border-radius: 10px;
     cursor: pointer;
     display: block;
-    margin: auto;
+    margin: 5px auto;
     
 }
 
